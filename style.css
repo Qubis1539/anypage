@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #0d0039;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background: green; */
+    height: 100vh;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    background: red;
+}
+
+.box:hover {
+    background: lime;
+}
